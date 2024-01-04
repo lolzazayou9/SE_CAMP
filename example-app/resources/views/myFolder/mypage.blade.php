@@ -1,7 +1,13 @@
-<h1> My page </h1>
-
-<form method="POST" action="/my-route">
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+<body>
+    <h1> สูตรคูณ </h1>
+<form method="post" action="/my-route">
     @csrf
     <input type="text" name="myinput">
     <button type="submit">Submit</button>
 </form>
+</body>
+</html>

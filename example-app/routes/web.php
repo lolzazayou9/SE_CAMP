@@ -1,7 +1,7 @@
 <?php
 use App\Http\Controllers\MyController;
 use Illuminate\Support\Facades\Route;
-use Illuminate\HTTp\Request;
+use Illuminate\Http\Request;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
