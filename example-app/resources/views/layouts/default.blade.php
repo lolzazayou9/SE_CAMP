@@ -181,11 +181,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <!-- Sidebar user panel (optional) -->
                 <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                     <div class="image">
-                        <img src="{{ url('assets/dist/img/user2-160x160.jpg') }}" class="img-circle elevation-2"
+                        <img src="{{ url('https://th.bing.com/th/id/R.bb45fdc01242a623f727dc9f22a82c41?rik=qT5QGYwC4SH7VQ&riu=http%3a%2f%2fi427.photobucket.com%2falbums%2fpp351%2fsadoon_photos%2f160x160.jpg&ehk=nUkeoeAtZesqEyTuy5BUwSUH8NsAK3mHpmj8d9SWdFY%3d&risl=&pid=ImgRaw&r=0') }}" class="img-circle elevation-2"
                             alt="User Image">
                     </div>
                     <div class="info">
-                        <a href="#" class="d-block">Alexander Pierce</a>
+                        <a href="#" class="d-block">จ่าไม้ จ่าโบท นายพลอาท</a>
                     </div>
                 </div>
 
