@@ -8,7 +8,7 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1 class="m-0">SE CAMP</h1>
+                    <h1 class="m-0">SE CAMP : {{ session('key') }} : {{ Auth::user()->id }}</h1>
                 </div><!-- /.col -->
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
@@ -58,6 +58,7 @@
 
                             <div class="card-footer">
                                 <button type="submit" class="btn btn-success">บันทึก</button>
+                                <button onclick="location.href='/logout'" type="button" class="btn btn-success">logout</button>
                             </div>
                         </form>
                     </div>
