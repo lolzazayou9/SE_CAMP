@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>JAVA Script 101 </title>
+        <title>แม่สูตรคูณ </title>
         
     </head>
     <body >
-        <h1 id="myh1">JAVAScript</h1>
+        <h1 id="myh1">แม่สูตรคูณ</h1>
         <button onclick="alert('bug hum noye')">Click me ummmm</button>
         <input type="text" id="my_number" >
         <button onclick="myFunction()">submit number</button>
@@ -15,17 +15,15 @@
                 console.log("Hello World - document.ready")
                 console.log($('#myh1').text())
                 console.log($('#my_number').val())
-                $('#myh1').text("Javascript 101")
-                $('#my_number').val(100)
+                
             });
             function myFunction(){
                 let my_number = parseInt($('#my_number').val())
-                for(let i = 0 ; i < my_number;i++){
-                    $('#myh1').after(`<h1 class="my_gen_number">${i}</h1>`)
+                for(let i = 0 ; i <= 12;i++){
+                    let re = my_number * i ;
+                    $('#myh1').after(`<h1 class="my_gen_number">${my_number} * ${i} = ${re}</h1>`)
                 }
-                console.log(document.getElementById('my_number').value);
-                console.log('Click submit number')
-                console.log('Click submit number')
+                c
             }
             console.log("Hum")
             let maval;
